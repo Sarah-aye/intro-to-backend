@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "intro to backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sarah-aye/intro-to-backend.git"
+  },
+  "author": "Sarah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarah-aye/intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/Sarah-aye/intro-to-backend#readme"
+}
