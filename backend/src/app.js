@@ -1,11 +1,14 @@
 import express from "express";
-import route from "./routes/userRoutes.js";
+
+import UserRoute from "./routes/userRoutes.js";
+import PostRoute from "./routes/postRoutes.js";
 
 // creates the app
 const app = express();
 app.use(express.json());
 
-app.use("/api/v1/users", route);
+app.use("/api/v1/users", UserRoute);
+app.use("/api/v1/posts", PostRoute);
 
 export default app;
 

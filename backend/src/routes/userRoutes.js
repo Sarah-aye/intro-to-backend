@@ -5,10 +5,10 @@ import {
   logoutUser,
 } from "../controllers/userController.js";
 
-const route = Router();
-route.post("/register", RegisterUser);
-route.post("/loggin", loginUser);
-route.post("/logout", logoutUser);
-export default route;
+const UserRoute = Router();
+UserRoute.post("/register", RegisterUser);
+UserRoute.post("/loggin", loginUser);
+UserRoute.post("/logout", logoutUser);
+export default UserRoute;
 
 // https://localhost:4000/api/v1/users/register
