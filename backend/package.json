@@ -2,9 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "intro to backend",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/Sarah-aye/intro-to-backend/issues"
   },
-  "homepage": "https://github.com/Sarah-aye/intro-to-backend#readme"
+  "homepage": "https://github.com/Sarah-aye/intro-to-backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14"
+  }
 }
